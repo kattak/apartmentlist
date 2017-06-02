@@ -52,6 +52,15 @@ function findMembers(k, v){
   return resultMembers;
 }
 
+//One click rating of lunch
+
+
+
+
+/////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////
+
 //Customize email for a specific member
 //customizeEmail(payload["members"][0]);
 
@@ -60,6 +69,6 @@ function findMembers(k, v){
 //Find a group of members matching a key value pair
 var group = findMembers("team", "operations");
 
-//Can loop over group of members to customize each email
-//Shown with just the first member below
-customizeEmail(group[0]);
+  ///Can loop over group of members to customize each email
+  ///Shown with just the first member below
+  customizeEmail(group[0]);

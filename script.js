@@ -32,6 +32,16 @@ var payload = {
 function customizeEmail(member){
   document.getElementById("name").innerHTML = member.name;
   document.getElementById("restaurant").innerHTML = payload["restaurant"]["name"];
+
+  //Add trackable links for analysis
+  /// Could add parameters for user, source, content similar to Google's UTM tags
+  var links = document.getElementsByClassName("link");
+
+  for (var i = 0; i < links.length; i++){
+    var currentLink = links[i];
+    var currentHref = currentLink.href
+    currentLink.href = currentHref + "&name=" + member.name;
+  }
 }
 
 //Customize email for a group of members
@@ -52,7 +62,6 @@ function findMembers(k, v){
   return resultMembers;
 }
 
-//One click rating of lunch
 
 
 

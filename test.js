@@ -46,5 +46,3 @@ describe('group of members', function() {
     assert.equal(group.length, 2);
   });
 });
-
-//mocha.run();

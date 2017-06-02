@@ -39,4 +39,12 @@ describe('member', function() {
   });
 });
 
+describe('group of members', function() {
+  var group = findMembers("team", "operations");
+
+  it('should have an array of two members', function() {
+    assert.equal(group.length, 2);
+  });
+});
+
 //mocha.run();

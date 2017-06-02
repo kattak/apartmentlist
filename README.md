@@ -13,4 +13,7 @@ I used Mocha Chai for testing.
 I used a (responsive HTML template)[https://github.com/leemunroe/responsive-html-email-template/blob/master/email-inlined.html]!
 
 #### Main points:
-- 
+
+
+## Extension
+- Litmus for testing emails on multiple clients

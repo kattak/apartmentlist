@@ -29,5 +29,10 @@ var payload = {
 }
 
 //Customize email for a specific team member
+function customizeEmail(member){
+  document.getElementById("name").innerHTML = member.name;
+  document.getElementById("restaurant").innerHTML = payload["restaurant"]["name"];
+}
 
-//
+
+customizeEmail(payload["members"][0]);

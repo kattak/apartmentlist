@@ -32,8 +32,10 @@
 - (Extension: Litmus looks like a good options for testing emails for different email providers.)
 
 ### Other Choices
-- I used a [responsive HTML template](https://github.com/leemunroe/responsive-html-email-template/blob/master/email-inlined.html)! to get started 
+- I used a [responsive HTML template](https://github.com/leemunroe/responsive-html-email-template/blob/master/email-inlined.html) to get started 
 - I made the table borders visible to see how the table was laid out 
+
+![screenshot](https://github.com/kattak/apartmentlist/blob/master/template.png?raw=true)
 
 #### Best Practices and Common Terms for Templating HTML emails:
 - Use tables for layout
